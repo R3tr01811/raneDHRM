@@ -1,0 +1,46 @@
+.sidenav{
+  width: 250px;
+}
+
+/*.mat-toolbar.mat-primary {*/
+/*  !*background: green !important;*!*/
+/*  color: #fff;*/
+/*}*/
+
+#bt{
+  padding-right: 10px;
+}
+@media (max-width: 767px) {
+  .show
+  {
+    margin-left: -15rem!important;
+  }
+  .hide
+  {
+    margin-left: -0!important;
+  }
+}
+
+::ng-deep .mat-drawer-inner-container {
+  background-color: #112B3C;
+}
+
+.mat-expansion-panel-header{
+  padding: 0 16px;
+}
+
+/deep/ .mat-expansion-indicator::after, .mat-expansion-panel-header-description { color: white;}
+/deep/ .mat-drawer-side{
+  border-right: none;
+}
+.icon-pad{
+  padding-right: 5px;
+}
+
+/deep/ .mat-drawer-container {
+  background-color: white !important;
+}
+
+/deep/ .mat-icon{
+  width: 35px !important;
+}
